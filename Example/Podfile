@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JFModuleManager_Example' do
+  pod 'JFModuleManager', :path => '../'
+
+  target 'JFModuleManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
